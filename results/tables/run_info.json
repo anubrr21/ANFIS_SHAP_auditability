@@ -1,0 +1,68 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "rules": [
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16
+  ],
+  "subset_sizes": {
+    "pima": [
+      3,
+      4,
+      6,
+      8
+    ],
+    "early": [
+      4,
+      8,
+      12,
+      16
+    ],
+    "cdc": [
+      4,
+      8,
+      12,
+      16,
+      21
+    ]
+  },
+  "variants": [
+    [
+      "gauss",
+      1
+    ],
+    [
+      "bell",
+      1
+    ],
+    [
+      "gauss",
+      0
+    ],
+    [
+      "bell",
+      0
+    ]
+  ],
+  "n_explain": 200,
+  "n_background": 100,
+  "total_runtime_seconds": 2204.8414445000235,
+  "python": "3.13.6",
+  "numpy": "2.5.4",
+  "scikit_learn": "1.9.1",
+  "lightgbm": "4.7.0",
+  "shap": "0.53.0",
+  "machine": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+  "cdc_full_test_rows": 50736,
+  "cdc_full_test_treeshap_seconds": 98.75876600004267
+}

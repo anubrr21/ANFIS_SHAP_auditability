@@ -1,0 +1,4 @@
+dataset,attributes,share_yes_no_attributes,mean_abs_correlation_between_attributes,mean_shap_top3_share,share_attributes_below_10pct_of_top,mean_max_firing,spearman_vs_top3_share,spearman_vs_max_firing,agreement_when_concentrated,agreement_when_spread
+pima,8,0.0,0.1753,0.761,0.3304,0.4954,-0.0122,-0.1043,0.7544,0.7426
+early,16,0.9375,0.1931,0.5048,0.2656,0.914,0.0999,0.031,0.5478,0.5314
+cdc,21,0.6667,0.1068,0.5904,0.6388,0.5147,-0.0623,0.1918,0.8561,0.8643
